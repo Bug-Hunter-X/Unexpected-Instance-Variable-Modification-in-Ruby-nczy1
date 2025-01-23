@@ -1,0 +1,3 @@
+# Unexpected Instance Variable Modification in Ruby
+
+This example demonstrates a potential issue when modifying instance variables directly in Ruby outside of defined setter methods.  While it *might* seem to work in some scenarios, it's not a reliable or recommended practice.  Direct modification can lead to unexpected behavior and makes the code harder to maintain and debug. Always utilize setter methods for modifying instance variables to ensure consistency and avoid subtle errors.
